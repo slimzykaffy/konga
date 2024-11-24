@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+}
+.first-img > img{
+    width: 100%;
+}
+.sticky {
+    position: sticky;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    height: 40px;
+    /* padding: 10px 10px 10px 10px; */
+    background-color: white;
+}
+.li > img {
+    width: 60%;
+    padding-top: 10px;
+}
+.second-div {
+    display: flex;
+    background-color: #ed017f;
+    height: 80px;
+}
+.second-div > img {
+   margin: 20px 30px 20px 30px;
+   width: 140px;
+   height: 40px;
+}
+.second-div > p {
+    width: 80px;
+    padding: 20px 20px 20px 10px;
+    color: white;
+}
+.second-div > p:hover {
+    background-color: white;
+    color: #ed017f;
+} 
+.second-div > input {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.second-div > button {
+    height: 40px;
+    margin: 20px;
+    width: 140px;
+    background-color: green;
+    color: white;
+    border: none;
+
+    span {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        margin-left: 10px;
+    }
+}
+.second-list {
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    background-color: #94004f;
+    color: white;
+
+    li {
+        padding: 10px 20px 10px 10px;
+    }
+
+    li:hover {
+        background-color: white;
+        color: #94004f;
+    }
+}
+.first-main {
+    padding: 30px 50px;
+}
+.first-main > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 20px;
+
+    li {
+        padding-right: 10px;
+        color: #94004f;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.first-main > h1 {
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.second-main {
+    background-color: whitesmoke;
+    padding: 30px;
+}
+.second-main > img {
+    width: 100%;
+    
+}
+.third-main {
+    display: flex;
+    padding: 0px 20px;
+    margin: ;
+    background-color: whitesmoke;
+}
+.list-main {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.list-main > img {
+    width: 80%;
+}
+.list-main > h3{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.child-div {
+    display: flex;
+    align-items: ;
+}
